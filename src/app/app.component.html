@@ -38,7 +38,7 @@
             <div class="todo-item" *ngFor="let item of toDosList; let i=index">
                 <div class="row">
                     <div class="col-8">
-                        <h1 class="item">{{item.description}}</h1>
+                        <h1 class="item" [ngClass]="item.done ? 'text-done' : 'text-undone'">{{item.description}}</h1>
                     </div>
                     <div class="col-4"><button type="button" class="btn" (click)="doneOrNot(i)"
                             [ngClass]="item.done ? 'done' : 'undone'"><i class="fa fa-twitter"
