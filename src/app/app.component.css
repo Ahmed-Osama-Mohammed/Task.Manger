@@ -227,3 +227,11 @@ button:disabled:hover{
 	background-color: #cccccc;
 	color: #666666;
 }
+.text-done{
+    color: darkgray;
+    text-decoration: line-through;
+}
+.text-undone{
+    color:black;
+    text-decoration: none;
+}
