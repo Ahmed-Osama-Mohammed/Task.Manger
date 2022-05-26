@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+
+:root{
+    --primary-color: #f3525a;
+    --font-color: #525252;
+    --animate-delay: 0.5s;
+  }
+.title{
+  text-transform: capitalize;
+}
+body{
+  background:#f0efea !important;
+}
